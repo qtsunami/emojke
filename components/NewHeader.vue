@@ -12,18 +12,21 @@
       <li class="md:mx-4" v-for="link in links" :key="link.name">
         <a href="#" class="text-xl hover:text-green-500">{{ link.name }}</a>
       </li>
-      <li class="md:mx-4">
-        <a href="#" class="text-xl hover:text-green-500">{{ tt }}</a>
-      </li>
     </ul>
   </div>
 </template>
-<script setup>
+<script>
+  // const links = [
+  //   { name: "Home", link: "#" },
+  //   { name: "Archives", link: "#" },
+  //   { name: "Blog's", link: "#" },
+  //   { name: "About", link: "#" },
+  // ]
+  // const tt = "Contact"
 
-definePageMeta({
+export default {
   data() {
     return {
-      tt: "Home",
       links: [
         { name: "Home", link: "#" },
         { name: "Archives", link: "#" },
@@ -32,5 +35,6 @@ definePageMeta({
       ]
     }
   }
-})
+}
 </script>
+
