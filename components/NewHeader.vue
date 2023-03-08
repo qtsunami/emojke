@@ -23,14 +23,6 @@
   </div>
 </template>
 <script>
-  // const links = [
-  //   { name: "Home", link: "#" },
-  //   { name: "Archives", link: "#" },
-  //   { name: "Blog's", link: "#" },
-  //   { name: "About", link: "#" },
-  // ]
-  // const tt = "Contact"
-
 export default {
   data() {
     return {
