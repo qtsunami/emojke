@@ -7,6 +7,7 @@ module.exports = {
       center: true,
       padding: '2rem'
     },
+    textColor: theme => theme('colors'),
     colors: {
       gray: colors.coolGray,
       blue: colors.lightBlue,

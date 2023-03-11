@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-7xl mx-auto py-3.5 px-6 md:flex justify-between items-center">
+  <div class="max-w-7xl mx-auto py-3.5 px-6 md:flex justify-between">
     <div class="w-full md:w-3/4 md:mr-7 border">
       <div class="article mt-4 bg-gray-50 py-2 rounded pb-4">
         <div class="w-full md:h-60">
@@ -57,38 +57,54 @@
           </div>
         </div>
       </div>
-      <!-- <div class="w-full flex justify-between">
-        <div class="p-5">
-          <button class="bg-gray-100 hover:bg-blue-400 hover:text-white duration-300 text-sm text-white rounded py-1.5 px-4">上一页</button>
-        </div>
-        <div class="p-5">
-          <button>下一页</button>
-        </div>
-      </div> -->
-      <div class="w-full flex mx-auto justify-center p-5">
-        <el-pagination background layout="prev, pager, next" :total="1000" />
+
+      <div class="w-full flex justify-between mx-auto p-5">
+          <el-button plain :icon="ArrowLeft">上一页</el-button>
+          <el-button plain>
+            下一页<el-icon class="el-icon--right"><ArrowRight /></el-icon>
+          </el-button>
       </div>
-
-
-
     </div>
-    <div class="w-1/4 bg-yellow-700 hidden md:block">
-      right
+    <div class="w-1/4 hidden py-3.5 md:block">
+      <figure class="bg-gray-100 rounded-xl p-8">
+        <img class="w-32 h-32 rounded-full mx-auto" src="https://youthman.oss-cn-beijing.aliyuncs.com/2021/06/23/16244514644386.jpeg" alt="" />
+        <div class="pt-6 text-center space-y-4">
+          <blockquote>
+            <p class="text-lg font-semibold">
+              “志不立，天下无可成之事，虽百工技艺，未有不本于志者”
+            </p>
+          </blockquote>
+          <figcaption class="font-medium">
+            <div class="text-blue-600">
+              Simple qtsunima
+            </div>
+            <div class="text-gray-500">
+              Free Engineer, Beijing
+            </div>
+          </figcaption>
+        </div>
+        <div class="flex justify-center items-center py-3.5">
+          <div class="w-8 h-8 leading-8 text-center border">G</div>
+          <div class="w-8 h-8 leading-8 text-center border">Q</div>
+          <div class="w-8 h-8 leading-8 text-center border">W</div>
+        </div>
+      </figure>
+      
     </div>
   </div>
 </template>
 <script setup>
+import {
+  ArrowLeft,
+  ArrowRight,
+} from '@element-plus/icons-vue'
 const page = ref(11)
 
-// export default {
-//   data() {
-//     return {
-//       page: 1
-//     }
-//   }
-// }
-
 definePageMeta({
-  layout: "custom"
+  layout: "custom",
+  components: {
+    ArrowLeft,
+    ArrowRight
+  }
 })
 </script>
