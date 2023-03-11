@@ -25,7 +25,7 @@
       <div class="article mt-4 bg-gray-50 py-2 rounded pb-4">
         <div class="w-full px-5 md:h-40 md:overflow-hidden">
           <div class="py-1 px-2">
-            <a href="#" class="text-xl font-bold hover:text-blue-500">不同方面浅浅认识一下 Synchronized</a>
+            <a href="#" class="text-xl font-bold hover:text-blue-500">不同方面浅浅认识一下浅认识一下 Synchronized</a>
           </div>
           <div class="py-2">
             <ul class="flex text-xs text-gray-400">
@@ -57,7 +57,17 @@
           </div>
         </div>
       </div>
-
+      <!-- <div class="w-full flex justify-between">
+        <div class="p-5">
+          <button class="bg-gray-100 hover:bg-blue-400 hover:text-white duration-300 text-sm text-white rounded py-1.5 px-4">上一页</button>
+        </div>
+        <div class="p-5">
+          <button>下一页</button>
+        </div>
+      </div> -->
+      <div class="w-full flex mx-auto justify-center p-5">
+        <el-pagination background layout="prev, pager, next" :total="1000" />
+      </div>
 
 
 
