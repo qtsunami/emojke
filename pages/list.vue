@@ -65,34 +65,10 @@
           </el-button>
       </div>
     </div>
-    <div class="w-1/4 hidden py-3.5 md:block">
-      <figure class="bg-gray-100 rounded-xl p-8">
-        <img class="w-32 h-32 rounded-full mx-auto" src="https://youthman.oss-cn-beijing.aliyuncs.com/2021/06/23/16244514644386.jpeg" alt="" />
-        <div class="pt-6 text-center space-y-4">
-          <blockquote>
-            <p class="text-lg font-semibold">
-              “志不立，天下无可成之事，虽百工技艺，未有不本于志者”
-            </p>
-          </blockquote>
-          <figcaption class="font-medium">
-            <div class="text-blue-600">
-              Simple qtsunima
-            </div>
-            <div class="text-gray-500">
-              Free Engineer, Beijing
-            </div>
-          </figcaption>
-        </div>
-        <div class="flex justify-center items-center py-3.5">
-          <div class="w-8 h-8 leading-8 text-center border">G</div>
-          <div class="w-8 h-8 leading-8 text-center border">Q</div>
-          <div class="w-8 h-8 leading-8 text-center border">W</div>
-        </div>
-      </figure>
-      
-    </div>
+    <Sidebar></Sidebar>
   </div>
 </template>
+
 <script setup>
 import {
   ArrowLeft,
