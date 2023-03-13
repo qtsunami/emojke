@@ -1,9 +1,6 @@
 <template>
   <main>
-    <div v-html="pageC">
-    </div>
-
-    BBB
+    <div v-html="pageC"></div>
   </main>
 </template>
 <script>
@@ -14,7 +11,7 @@ definePageMeta({
 export default{
   data() {
     return {
-      pageC: "<h2>Page C</h2>"
+      pageC: `<h2>Page C</h2>`
     }
   }
 }

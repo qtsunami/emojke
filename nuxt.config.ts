@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
   ],
   css: [
-    "@/assets/css/tailwind.css",
+    // "@/assets/css/tailwind.css",
     // "@/assets/css/mavon-editor.css",
     // "@/node_modules/bootstrap-icons/font/bootstrap-icons.css"
   ],
