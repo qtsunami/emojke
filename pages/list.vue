@@ -1,7 +1,7 @@
 <template>
   <div class="max-w-7xl mx-auto py-3.5 px-6 md:flex justify-between">
     <div class="w-full md:w-3/4 md:mr-7 border">
-      <div class="article mt-4 bg-gray-50 py-2 rounded pb-4">
+      <div class="article mt-4 bg-gray-50 rounded pb-4">
         <div class="w-full md:h-60">
           <img class="w-full h-full" src="https://krs-oversea.oss-cn-beijing.aliyuncs.com/2023/02/a916e05fe46ea2078b54dcf46e70f0c7.jpg" alt="Man looking at item at a store">
         </div>
