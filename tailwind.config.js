@@ -2,6 +2,9 @@
 const colors = require('tailwindcss/colors')
 module.exports = {
   content: [],
+  corePlugins: {
+    // preflight: false,
+  },
   theme: {
     container: {
       center: true,
@@ -17,7 +20,8 @@ module.exports = {
       yellow: colors.yellow,
       indigo: colors.indigo,
       purple: colors.purple,
-      pink: colors.pink
+      pink: colors.pink,
+      white: colors.white
     },
     extend: {
       spacing: {

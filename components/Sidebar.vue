@@ -10,10 +10,10 @@
         </blockquote>
         <figcaption class="font-medium">
           <div class="text-blue-600">
-            Simple qtsunima
+            qtsunima
           </div>
           <div class="text-gray-500">
-            Free Engineer, Beijing
+            A very, very lazy man.
           </div>
         </figcaption>
       </div>

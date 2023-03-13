@@ -3,11 +3,11 @@ export default defineNuxtConfig({
   modules: [
     "@nuxtjs/tailwindcss",
     "@element-plus/nuxt",
-    "@nuxt/ui",
+    // "@nuxt/ui",
     '@nuxt/content',
   ],
   css: [
-    // "@/assets/css/tailwind.css",
+    "@/assets/css/tailwind.css",
     // "@/assets/css/mavon-editor.css",
     // "@/node_modules/bootstrap-icons/font/bootstrap-icons.css"
   ],
