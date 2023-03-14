@@ -45,6 +45,19 @@
         </li>
       </ul>
     </figure>
+
+    <figure class="bg-gray-100 rounded-md px-4 py-4 mt-5 sidebar-widget">
+      <h2 class="text-xl font-bold font-sans relative pb-2">最近文章<span class="text-base pl-2 text-blue-600">Related Posts</span></h2>
+      <ul class="text-sm">
+        <li class="pl-4 pt-2">
+          <a href="#">Go是一门面向对象编程语言吗</a>
+        </li>
+        <li class="pl-4 pt-2">小厂内部私有Go module拉取方案3</li>
+        <li class="pl-4 pt-2">一文告诉你如何判断Go接口变量是否相等</li>
+        <li class="pl-4 pt-2">职场</li>
+      </ul>
+    </figure>
+
   </div>
 </template>
 <style scoped>

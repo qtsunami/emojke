@@ -1,8 +1,8 @@
 <template>
   <div class="max-w-7xl mx-auto py-3.5 px-6 md:flex justify-between">
-    <div class="w-full bg-white p-6 rounded-md mt-4 md:w-3/4 md:mr-7 border">
+    <div class="w-full bg-white p-6 rounded-md mt-4 md:w-3/4 md:mr-7">
       <div class="text-center">
-        <h2 class="py-2">Go日志库——logrus，如何设计一个日志包</h2>
+        <h1 class="py-2">Go日志库——logrus，如何设计一个日志包</h1>
         <ul class="flex text-sm text-gray-400 justify-center pb-3">
           <li class="px-2"><i class="bi bi-calendar3"></i> 2022-11-20 12:12:34</li>
           <li class="px-2"><i class="bi bi-person-fill"></i> 西梧RT</li>
@@ -10,6 +10,10 @@
         </ul>
       </div>
       <div v-html="pageC"></div>
+      <div class="border-t my-4"></div>
+      <div class="">
+        <img src="https://img.spingdraft.com/mp.png" alt="" />
+      </div>
     </div>
     <Sidebar />
   </div>
