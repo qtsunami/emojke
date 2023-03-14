@@ -1,17 +1,21 @@
 <template>
   <main>
-    <div v-html="pageC"></div>
+    <section
+    class="prose prose-gray text-sm"
+    v-html="$mdRenderer.render(markdownString)"
+  />
   </main>
 </template>
 <script>
+// const markdownString = "# Markdwon-it in Nuxt3"
 definePageMeta({
   layout: "custom"
 })
 
-export default{
-  data() {
+export default {
+  data () {
     return {
-      pageC: `<h1>H1</h1><h2>H2</h2><h3>H3</h3><h4>H4</h4><h5>H5</h5><h6>H6</h6>`
+      markdownString: `# Markdwon-it in Nuxt3`
     }
   }
 }

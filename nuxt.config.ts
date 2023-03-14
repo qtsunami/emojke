@@ -3,8 +3,6 @@ export default defineNuxtConfig({
   modules: [
     "@nuxtjs/tailwindcss",
     "@element-plus/nuxt",
-    // "@nuxt/ui",
-    '@nuxt/content',
   ],
   css: [
     "@/assets/css/tailwind.css",
