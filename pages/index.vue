@@ -1,64 +1,86 @@
 <template>
-  <div class="flex min-w-min min-h-screen px-80 py-5 justify-between">
-    <div class="w-8/12">
-      <div class="article w-[100%]">
-        <div class="w-[100%] bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
-          <div class="md:flex h-50">
-            <div class="md:flex-shrink-0">
-              <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://krs-oversea.oss-cn-beijing.aliyuncs.com/2023/02/a916e05fe46ea2078b54dcf46e70f0c7.jpg" alt="Man looking at item at a store">
-            </div>
-            <div class="p-4">
-              <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Finding customers for your new business</a>
-              <p class="mt-2 text-gray-500">Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your first customers.</p>
-            </div>
+  <div class="max-w-7xl mx-auto py-3.5 px-6 md:flex justify-between">
+    <div class="w-full md:w-3/4 md:mr-7 border">
+      <div class="article mt-4 bg-gray-50 rounded pb-4">
+        <div class="w-full md:h-60">
+          <img class="w-full h-full" src="https://krs-oversea.oss-cn-beijing.aliyuncs.com/2023/02/a916e05fe46ea2078b54dcf46e70f0c7.jpg" alt="Man looking at item at a store">
+        </div>
+        <div class="w-full px-5 md:h-40 md:overflow-hidden">
+          <div class="py-1 px-2">
+            <a href="/posts/zxf.html" class="text-xl font-bold hover:text-blue-500">不同方面浅浅认识一下 Synchronized</a>
           </div>
-          <div class="md:flex">
-            <div class="md:flex-shrink-0">
-              <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://krs-oversea.oss-cn-beijing.aliyuncs.com/2023/02/a916e05fe46ea2078b54dcf46e70f0c7.jpg" alt="Man looking at item at a store">
-            </div>
-            <div class="p-4">
-              <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Finding customers for your new business</a>
-              <p class="mt-2 text-gray-500">Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your first customers.</p>
-            </div>
+          <div class="py-2">
+            <ul class="flex text-xs text-gray-400">
+              <li class="px-2"><i class="bi bi-calendar3"></i> 2022-11-20 12:12:34</li>
+              <li class="px-2"><i class="bi bi-person-fill"></i> 西梧RT</li>
+              <li class="px-2"><i class="bi bi-eye-fill"></i> 200</li>
+            </ul>
           </div>
-          <div class="md:flex">
-            <div class="md:flex-shrink-0">
-              <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://krs-oversea.oss-cn-beijing.aliyuncs.com/2023/02/a916e05fe46ea2078b54dcf46e70f0c7.jpg" alt="Man looking at item at a store">
-            </div>
-            <div class="p-4">
-              <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Finding customers for your new business</a>
-              <p class="mt-2 text-gray-500">Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your first customers.</p>
-            </div>
-          </div>
-          <div class="md:flex">
-            <div class="md:flex-shrink-0">
-              <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://krs-oversea.oss-cn-beijing.aliyuncs.com/2023/02/a916e05fe46ea2078b54dcf46e70f0c7.jpg" alt="Man looking at item at a store">
-            </div>
-            <div class="p-4">
-              <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Finding customers for your new business</a>
-              <p class="mt-2 text-gray-500">Getting a new business off the ground is a lot of hard work. Here are five ideas you can use to find your first customers.</p>
-            </div>
+          <div class="px-2">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa nt ium dolorem que laudantium totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa nt ium dolorem que laudantium totam rem aperiam.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </div>
         </div>
       </div>
-      <div class="w-[100%] overflow-hidden md:max-w-2xl mt-5">
-        <el-pagination background layout="prev, pager, next" :total="1000" />
+
+      <div class="article mt-4 bg-gray-50 py-2 rounded pb-4">
+        <div class="w-full px-5 md:h-40 md:overflow-hidden">
+          <div class="py-1 px-2">
+            <a href="#" class="text-xl font-bold hover:text-blue-500">不同方面浅浅认识一下浅认识一下 Synchronized</a>
+          </div>
+          <div class="py-2">
+            <ul class="flex text-xs text-gray-400">
+              <li class="px-2"><i class="bi bi-calendar3"></i> 2022-11-20 12:12:34</li>
+              <li class="px-2"><i class="bi bi-person-fill"></i> 西梧RT</li>
+              <li class="px-2"><i class="bi bi-eye-fill"></i> 200</li>
+            </ul>
+          </div>
+          <div class="px-2">
+            Sed ut perspiciatis unde totam rem aperiam.Lormet, consectetur adipiscing elit.
+          </div>
+        </div>
       </div>
-      
+
+      <div class="article mt-4 bg-gray-50 py-2 rounded pb-4">
+        <div class="w-full px-5 md:h-40 md:overflow-hidden">
+          <div class="py-1 px-2">
+            <a href="#" class="text-xl font-bold hover:text-blue-500">不同方面浅浅认识一下 Synchronized</a>
+          </div>
+          <div class="py-2">
+            <ul class="flex text-xs text-gray-400">
+              <li class="px-2"><i class="bi bi-calendar3"></i> 2022-11-20 12:12:34</li>
+              <li class="px-2"><i class="bi bi-person-fill"></i> 西梧RT</li>
+              <li class="px-2"><i class="bi bi-eye-fill"></i> 200</li>
+            </ul>
+          </div>
+          <div class="px-2">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa nt ium dolorem que laudantium totam rem aperiam.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa nt ium dolorem que laudantium totam rem aperiam.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full flex justify-between mx-auto p-5">
+          <el-button plain :icon="ArrowLeft">上一页</el-button>
+          <el-button plain>
+            下一页<el-icon class="el-icon--right"><ArrowRight /></el-icon>
+          </el-button>
+      </div>
     </div>
-    <div class="w-4/12 bg-red-200">
-      Right List
-    </div>
+    <Sidebar></Sidebar>
   </div>
 </template>
+
 <script setup>
-  definePageMeta({
-    components: {
-    },
-    data() {
-      return {
-        page: 3
-      }
-    },
-  })
+import {
+  ArrowLeft,
+  ArrowRight,
+} from '@element-plus/icons-vue'
+const page = ref(11)
+
+definePageMeta({
+  layout: "custom",
+  components: {
+    ArrowLeft,
+    ArrowRight
+  }
+})
 </script>
