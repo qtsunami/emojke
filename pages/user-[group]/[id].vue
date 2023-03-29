@@ -9,5 +9,5 @@
 
   // const { data: api } = await useFetch('/api/hello')
   // console.log(api)
-  const { data: res } = await useFetch('/api/hello')
+  const { data: res } = await useFetch('http://localhost:8080/api/article')
 </script>

@@ -1,6 +1,6 @@
 export default defineEventHandler((event) => {
   return {
-    title: 'Mount Everest',
+    title: 'Wthat',
     description: "Mount Everest is Earth's highest mountain above sea level, located in the Mahalangur Himal sub-range of the Himalayas. The China–Nepal border runs across its summit point",
     height: '8,848 m',
     countries: [
