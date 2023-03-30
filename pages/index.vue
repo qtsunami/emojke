@@ -39,7 +39,7 @@ import {
 } from '@element-plus/icons-vue'
 
 const { data: res } = await useFetch('http://localhost:8080/api/article')
-console.log(res.code)
+
 
 definePageMeta({
   layout: "custom",
