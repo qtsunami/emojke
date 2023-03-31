@@ -15,7 +15,7 @@ definePageMeta({
 
 const markdownString = `# Markdwon-it in Nuxt3`
 
-const { data: res } = await useFetch('http://localhost:8080/api/article/detail?id=10031')
+const { data: res } = await useFetch('http://81.70.5.36:8080/api/article/detail?id=10088')
 
 
 // export default {

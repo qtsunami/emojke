@@ -38,7 +38,7 @@ import {
   ArrowRight,
 } from '@element-plus/icons-vue'
 
-const { data: res } = await useFetch('http://localhost:8080/api/article')
+const { data: res } = await useFetch('http://81.70.5.36:8080/api/article')
 
 
 definePageMeta({

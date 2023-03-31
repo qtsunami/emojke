@@ -5,6 +5,12 @@
 .vcontent code {
   font-family: revert;
 }
+
+.vcontent ol, ul {
+  list-style: initial;
+  margin: revert;
+  padding: revert;
+}
 </style>
 <template>
   <div class="max-w-7xl mx-auto py-3.5 px-6 md:flex justify-between">
@@ -31,7 +37,7 @@
 
 <script setup>
 
-const { data: res } = await useFetch('http://localhost:8080/api/article/detail?id=10031')
+const { data: res } = await useFetch('http://81.70.5.36:8080/api/article/detail?id=10088')
 
 
 definePageMeta({
