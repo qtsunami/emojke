@@ -6,13 +6,14 @@
       <div class="article mt-4 bg-gray-50 py-2 rounded pb-4" v-for="article in res.data" :key="article.id">
         <div class="w-full px-5 md:h-40 md:overflow-hidden">
           <h1 class="py-1 px-2">
-            <a href="#" class="text-xl font-bold hover:text-blue-500">{{ article.title }}</a>
+            <a :href="'/posts/' + article.id" class="text-xl font-bold hover:text-blue-500">{{ article.title }}</a>
+            <!-- <nuxt-link :to=>{{ article.title }}</nuxt-link> -->
           </h1>
           <div class="py-2">
             <ul class="flex text-xs text-gray-400">
               <li class="px-2"><i class="bi bi-calendar3"></i> {{ article.create_date }}</li>
               <li class="px-2"><i class="bi bi-person-fill"></i> {{ article.author }}</li>
-              <li class="px-2"><i class="bi bi-eye-fill"></i> 200</li>
+              <!-- <li class="px-2"><i class="bi bi-eye-fill"></i> 200</li> -->
             </ul>
           </div>
           <div class="px-2">
