@@ -23,8 +23,11 @@
       </div>
 
       <div class="w-full flex justify-between mx-auto p-5">
-          <el-button plain :icon="ArrowLeft">上一页</el-button>
-          <el-button plain>
+          <div>
+            <NuxtLink class="border-gray-50">上一页</NuxtLink>
+          </div>
+          <el-button plain :icon="ArrowLeft" @click="redirect(res.data.prev_page)">上一页</el-button>
+          <el-button plain @click="redirect(res.data.next_page)">
             下一页<el-icon class="el-icon--right"><ArrowRight /></el-icon>
           </el-button>
       </div>
@@ -47,15 +50,17 @@ const { data: res } = await useFetch(`http://81.70.5.36:8080/api/article?page=${
 // const { data: res } = await useFetch(`http://localhost:8080/api/article?page=${route.query.page}`)
 
 
-const prev_page = page == 1 ? 1 : page - 1;
-// const next_page = page >= res.data.total_page  ? res.data.total_page : page + 1;
-
-
 definePageMeta({
   layout: "custom",
   components: {
     ArrowLeft,
     ArrowRight
-  }
+  },
+  methods: {
+    redirect(page) {
+      location.href = "/?page=" + page
+    }
+  },
 })
+
 </script>
