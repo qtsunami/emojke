@@ -3,7 +3,7 @@
     <div class="w-full md:w-3/4 md:mr-7 border">
 
 
-      <div class="article mt-4 bg-gray-50 py-2 rounded pb-4 hover:border hover:border-yellow-800" v-for="article in res.data.list" :key="article.id">
+      <div class="article mt-4 bg-gray-50 py-2 rounded pb-4 hover:border hover:border-yellow-800" v-for="article in data.data.list" :key="article.id">
         <div class="w-full px-5 md:h-40 md:overflow-hidden">
           <h1 class="py-1 px-2">
             <a :href="'/posts/' + article.id" class="text-xl font-bold hover:text-blue-500">{{ article.title }}</a>
@@ -23,11 +23,8 @@
       </div>
 
       <div class="w-full flex justify-between mx-auto p-5">
-          <div>
-            <NuxtLink class="border-gray-50">上一页</NuxtLink>
-          </div>
-          <el-button plain :icon="ArrowLeft" @click="redirect(res.data.prev_page)">上一页</el-button>
-          <el-button plain @click="redirect(res.data.next_page)">
+          <el-button plain :icon="ArrowLeft" :disabled="page <= 1" @click="page > 1 ? page-- : 1">上一页</el-button>
+          <el-button plain :disabled="page >= data.data.total_page" @click="page ++">
             下一页<el-icon class="el-icon--right"><ArrowRight /></el-icon>
           </el-button>
       </div>
@@ -44,10 +41,12 @@ import {
 
 const route = useRoute()
 
-const page = route.query.page > 0 ? route.query.page : 1;
+const page = ref(1)
 
-const { data: res } = await useFetch(`http://81.70.5.36:8080/api/article?page=${route.query.page}`)
+// const { data: res } = await useFetch(`http://81.70.5.36:8080/api/article?page=${route.query.page}`)
 // const { data: res } = await useFetch(`http://localhost:8080/api/article?page=${route.query.page}`)
+const { data, pending, refresh } = await useAsyncData(() => $fetch(`http://81.70.5.36:8080/api/article?page=${page.value}`), { watch: [page]})
+
 
 
 definePageMeta({
@@ -56,11 +55,6 @@ definePageMeta({
     ArrowLeft,
     ArrowRight
   },
-  methods: {
-    redirect(page) {
-      location.href = "/?page=" + page
-    }
-  },
-})
+});
 
 </script>
