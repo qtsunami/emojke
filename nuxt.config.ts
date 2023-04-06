@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   ],
   app: {
     head: {
-      title: 'abroad-learning',
+      title: '西梧Runtime - Emojke',
       htmlAttrs: {
         lang: 'en'
       },
