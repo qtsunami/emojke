@@ -2,7 +2,7 @@
 	{{ page }}
 	<div class="w-full flex justify-between mx-auto p-5">
 		<el-button plain :disabled="pending" :icon="ArrowLeft" @click="page--">上一页</el-button>
-		<el-button plain :disabled="pending" disabled="disabled" @click="page++">
+		<el-button plain :disabled="pending" disabled @click="page++">
 		下一页<el-icon class="el-icon--right"><ArrowRight /></el-icon>
 		</el-button>
 	</div>
