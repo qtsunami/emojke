@@ -42,7 +42,12 @@ import hljs from "highlight.js"
 
 const route = useRoute()
 
-const { data: res } = await useFetch(`http://81.70.5.36:8080/api/article/detail?id=${route.params.letter}`)
+const { data: res } = await useFetch(`https://api.spingdraft.com/api/article/detail?id=${route.params.letter}`)
+
+if (!res.value) {
+  throw createError({ statusCode: 404, statusMessage: 'Page Not Found' })
+}
+
 setTimeout(() =>{
       hljs.highlightAll()
 },200)

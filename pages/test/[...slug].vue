@@ -29,7 +29,7 @@ definePageMeta({
   layout: "custom"
 })
 
-const { data: res } = await useFetch('http://81.70.5.36:8080/api/article/detail?id=10023')
+const { data: res } = await useFetch('https://api.spingdraft.com/api/article/detail?id=10023')
 
 setTimeout(() =>{
       hljs.highlightAll()

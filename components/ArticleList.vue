@@ -41,5 +41,5 @@ const props = defineProps({
   console.log(props)
 
   const page = ref(1)
-  const { data, pending, refresh } = await useAsyncData(() => $fetch(`http://81.70.5.36:8080/api/article?page=${page.value}`), { watch: [page]})
+  const { data, pending, refresh } = await useAsyncData(() => $fetch(`https://api.spingdraft.com/api/article?page=${page.value}`), { watch: [page]})
 </script>

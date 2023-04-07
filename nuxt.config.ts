@@ -11,14 +11,15 @@ export default defineNuxtConfig({
   ],
   app: {
     head: {
-      title: '西梧Runtime - Emojke',
+      title: '西梧Runtime',
       htmlAttrs: {
         lang: 'en'
       },
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { hid: 'description', name: 'description', content: '' },
+        { hid: 'keywords', name: 'keywords', content: '西梧Runtime,golang,python,编程,职场' },
+        { hid: 'description', name: 'description', content: '写作是一种锻炼' },
         { name: 'format-detection', content: 'telephone=no' }
       ],
       link: [
