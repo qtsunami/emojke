@@ -28,23 +28,23 @@
     <figure class="bg-gray-100 rounded-md px-4 py-4 mt-5 sidebar-widget">
       <h2 class="text-xl font-bold font-sans relative pb-2">分类<span class="text-base pl-2 text-blue-600">By Categories</span></h2>
       <ul class="text-sm">
-        <li class="h-10 leading-10 border-b-2 pl-4">
-          <a href="#">Go语言</a>
+        <li class="h-10 leading-10 pl-4" v-for="(c, i) in category" :key="i" :class="i < category.length-1 ? 'border-b-2' : ''">
+          <a href="#" class="hover:text-blue-600">{{ c.category_name }}</a>
         </li>
-        <li class="h-10 leading-10 border-b-2 pl-4">Python</li>
+       <!--  <li class="h-10 leading-10 border-b-2 pl-4">Python</li>
         <li class="h-10 leading-10 border-b-2 pl-4">前端</li>
-        <li class="h-10 leading-10 pl-4">职场</li>
+        <li class="h-10 leading-10 pl-4">职场</li> -->
       </ul>
     </figure>
 
-    <figure class="bg-gray-100 rounded-md px-4 py-4 mt-5 sidebar-widget">
+    <!-- <figure class="bg-gray-100 rounded-md px-4 py-4 mt-5 sidebar-widget">
       <h2 class="text-xl font-bold font-sans relative pb-2">标签<span class="text-base pl-2 text-blue-600">By Tags</span></h2>
       <ul class="text-sm inline-block mt-2">
         <li class="h-10 leading-10 px-2 mt-2 mr-2 border float-left" v-for="tag in tags" :key="tag.id">
           <a href="#">{{ tag.name }}</a>
         </li>
       </ul>
-    </figure>
+    </figure> -->
 
     <figure class="bg-gray-100 rounded-md px-4 py-4 mt-5 sidebar-widget">
       <h2 class="text-xl font-bold font-sans relative pb-2">最近文章<span class="text-base pl-2 text-blue-600">Related Posts</span></h2>
@@ -84,4 +84,27 @@ const tags = ref([
   {id: 9, name: "logrus"},
 ]);
 
+const category = ref([])
+
+
+const getCategory = async () => {
+  const {data: res, error: resError} = await useAsyncData(() => $fetch(`http://127.0.0.1:8080/api/category`), {
+  transform: (result) => {
+    var dt = result.data.list;
+    return dt
+  }
+})
+  category.value = res.value
+}
+
+// const { data, pending, refresh } = await useAsyncData(() => $fetch(`http://127.0.0.1:8080/api/category`), {
+//   transform: (result) => {
+//     console.log(111)
+//     var dt = result.data.list;
+//     console.log(dt)
+//     return dt
+//   }
+// })
+
+await getCategory()
 </script>
