@@ -18,8 +18,8 @@ export default defineNuxtConfig({
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { hid: 'keywords', name: 'keywords', content: '西梧Runtime,golang,python,编程,职场' },
-        { hid: 'description', name: 'description', content: '写作是一种锻炼' },
+        // { hid: 'keywords', name: 'keywords', content: '西梧Runtime,golang,python,编程,职场' },
+        // { hid: 'description', name: 'description', content: '写作是一种锻炼' },
         { name: 'format-detection', content: 'telephone=no' }
       ],
       link: [
