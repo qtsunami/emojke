@@ -36,10 +36,11 @@ const props = defineProps({
   dValue: String,
 });
 
+const dType = props.dType == undefined ? "" : props.dType
+const dValue = props.dValue == undefined ? "" : props.dValue
 
-
-  console.log(props)
+  console.log(dType, dValue);
 
   const page = ref(1)
-  const { data, pending, refresh } = await useAsyncData(() => $fetch(`https://api.spingdraft.com/api/article?page=${page.value}`), { watch: [page]})
+  const { data, pending, refresh } = await useAsyncData(() => $fetch(`https://api.spingdraft.com/api/article?page=${page.value}&category=${dType}&code=${dValue}`), { watch: [page]})
 </script>
