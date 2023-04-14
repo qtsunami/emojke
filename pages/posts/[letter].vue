@@ -48,6 +48,9 @@ if (!res.value) {
   throw createError({ statusCode: 404, statusMessage: 'Page Not Found' })
 }
 
+const title = ref(res.value.data.title)
+const description = ref(res.value.data.introduce)
+
 setTimeout(() =>{
       hljs.highlightAll()
 },200)
@@ -56,6 +59,14 @@ definePageMeta({
   layout: "custom",
   components: {
   }
+})
+
+useHead({
+  titleTemplate: "%s - 西梧Runtime",
+  meta: [
+    { name:"keywords", content: title },
+    { name: "description", content: description }
+  ]
 })
 
 </script>

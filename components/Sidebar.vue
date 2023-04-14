@@ -31,9 +31,6 @@
         <li class="h-10 leading-10 pl-4" v-for="(c, i) in category" :key="i" :class="i < category.length-1 ? 'border-b-2' : ''">
           <NuxtLink :to="`/category/${c.code}`" class="hover:text-blue-600">{{ c.category_name }}</NuxtLink>
         </li>
-       <!--  <li class="h-10 leading-10 border-b-2 pl-4">Python</li>
-        <li class="h-10 leading-10 border-b-2 pl-4">前端</li>
-        <li class="h-10 leading-10 pl-4">职场</li> -->
       </ul>
     </figure>
 
