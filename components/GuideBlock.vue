@@ -1,15 +1,15 @@
 <template>
-  <div class="left w-full min-w-min md:w-48 py-2.5 bg-gray-200 z-50">
-    <span @click="openMenu()" class="absolute md:hidden left-1 top-2.5 cursor-pointer text-4xl z-50">
+  <div class="left w-full min-w-min md:w-48 h-screen pb-2.5 z-50">
+    <span @click="openMenu()" class="absolute md:hidden left-1 top-2 cursor-pointer text-4xl z-50">
       <i :class="open ? '' : 'bi bi-filter-left'"></i>
     </span>
 
     <div class="h-10 w-48 m-auto bg-gray-700 z-50"></div>
 
     <div class="md:static absolute duration-700 top-0 ease-i z-50" :class="[open ? 'left-0' : 'left-[-100%]']">
-      <div class="h-20 w-48 m-auto bg-blue-200"></div>
+      <div class="h-10 w-48 m-auto bg-blue-200"></div>
 
-      <ul class="justify-center items-center w-48 text-left pl-8 bg-gray-600">
+      <ul class="justify-center items-center w-48 text-left pl-8 ">
         <li class="py-4" v-for="(item, key) in guide" :key="key"><i :class="item.icon"></i> {{ item.name }}</li>
       </ul>
     </div>
