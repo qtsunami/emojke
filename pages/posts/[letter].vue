@@ -42,7 +42,9 @@ import hljs from "highlight.js"
 
 const route = useRoute()
 
-const { data: res } = await useFetch(`https://api.spingdraft.com/api/article/detail?id=${route.params.letter}`)
+const letter = route.params.letter.replace(".html", "")
+
+const { data: res } = await useFetch(`https://api.spingdraft.com/api/article/detail?id=${letter}`)
 
 if (!res.value) {
   throw createError({ statusCode: 404, statusMessage: 'Page Not Found' })
@@ -58,6 +60,11 @@ setTimeout(() =>{
 definePageMeta({
   layout: "custom",
   components: {
+  },
+  validate: async (route) => {
+    const nuxtApp = useNuxtApp()
+    // Check if the id is made up of digits
+    return /^\d+\.html$/.test(route.params.letter)
   }
 })
 
