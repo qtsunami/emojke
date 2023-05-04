@@ -35,6 +35,7 @@ module.exports = {
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
+      mono: [ 'Menlo', 'Monaco', 'Consolas']
     },
     screens: {
       'sm': '640px',
