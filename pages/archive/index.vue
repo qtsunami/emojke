@@ -4,170 +4,19 @@
 			<div class="border-b mb-8 h-14">
 				<span class="font-san text-xl font-bold"><i>青春大有可为，梦想向阳而生</i></span>
 			</div>
-			<div class="ml-8">
-				<div class="mb-8">
-					<h2>2023年</h2>
-					<ul class="mt-4 ml-4">
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-					</ul>
-				</div>
-				<div class="mb-8">
-					<h2>2022年</h2>
-					<ul class="mt-4 ml-4">
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">asfadfafadsf</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">asfadfafadsf</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">asfadfafadsf</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
-						</li>
-						<li class="h-8 leading-8 font-mono">
-							<span>2023/05/04</span>
-							<a href="" class="ml-5 text-base text-gray-400 hover:text-blue-600">SMART原则，让自己设定的目标更容易执行</a>
+			<div class="md:mx-8">
+				<div class="mb-8" v-for="item in res.data">
+					<h2 class="text-center md:text-left bg-blue-600 text-white rounded-sm md:pl-5"> {{ item.year }} 年</h2>
+					<ul class="mt-4 md:ml-4">
+						<li class="font-mono" v-for="article in item.list">
+							<div class="flex leading-8">
+								<div class="w-32 hidden md:block">
+									<span>{{ article.year + "-" + article.date }}</span>
+								</div>
+								<div class="ml-5">
+									<a :href="`/posts/${article.id}.html`" class="text-base text-gray-400 hover:text-red-600">{{ article.title }}</a>
+								</div>
+							</div>
 						</li>
 					</ul>
 				</div>
@@ -181,6 +30,15 @@
 	</div>
 </template>
 <script setup>
+
+
+const { data: res } = await useFetch(`https://api.spingdraft.com/api/article/archive`)
+// const { data: res } = await useFetch(`http://localhost:8080/api/article/archive`)
+
+if (!res.value) {
+  throw createError({ statusCode: 404, statusMessage: 'Page Not Found' })
+}
+
 definePageMeta({
   layout: "custom",
   components: {
