@@ -18,8 +18,8 @@
       <div class="text-center border-b">
         <h1 class="py-2">{{ res.data.title }}</h1>
         <ul class="flex text-sm text-gray-400 justify-center pb-3">
-          <li class="px-2"><i class="bi bi-calendar3"></i> 2022-11-20 12:12:34</li>
-          <li class="px-2"><i class="bi bi-person-fill"></i> 西梧RT</li>
+          <li class="px-2"><i class="bi bi-calendar3"></i> {{ res.data.release_date }}</li>
+          <li class="px-2"><i class="bi bi-person-fill"></i> {{ res.data.author }}</li>
           <!-- <li class="px-2"><i class="bi bi-eye-fill"></i> 200</li> -->
         </ul>
       </div>
